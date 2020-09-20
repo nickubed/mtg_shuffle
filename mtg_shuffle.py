@@ -27,6 +27,6 @@ def mtg_shuffle(ls):
 
     return merged
 
-standard_deck = [x for x in range(60)]
+standard_deck = [{'Card': x} for x in range(60)]
 
 print(mtg_shuffle(standard_deck))
